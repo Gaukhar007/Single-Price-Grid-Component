@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @media screen and (max-width: 467px){ */
+    
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Poppins;
+    background-color: hsl(204, 43%, 93%);
+    color: #fff;
+}
+
+.container {
+    /* min-width: 100%; */
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.block {
+    width: 400px;
+    padding: 30px;
+}
+.join {
+    background-color: #fff;
+    color: hsl(218, 22%, 67%);
+    /* padding-bottom: 20px; */
+}
+.title {
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+
+
+.join__title {
+    color: hsl(179, 62%, 43%);
+}
+
+.subtitle {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 20px;
+}
+.description {
+    font-size: 16px;
+    font-weight: 300;
+    /* padding-bottom: 20px; */
+}
+.subscription {
+    background-color: hsl(179, 62%, 43%);
+}
+.price {
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+
+}
+
+.price span {
+    font-weight: 600;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.button {
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 35px;
+}
+.why {
+    background-color: hsl(179, 62%, 64%);
+}
+
